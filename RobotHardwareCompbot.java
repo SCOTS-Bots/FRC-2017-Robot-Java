@@ -75,8 +75,8 @@ public class RobotHardwareCompbot extends RobotHardware {
 
 	@Override
 	public void initialize() {
-		vision = new RobotVision("10.47.76.20", "cam1");
-		dualUSBVision = new RobotVisionDualUSB("cam1", "cam0"); // TODO set for
+		vision = new RobotVision("10.47.76.20", "cam2"); // changed from 1 to 2
+		dualUSBVision = new RobotVisionDualUSB("cam2", "cam0"); // TODO set for / changed from 1 to 2
 																// changing cams
 
 		leftMotor = new Victor(0);
